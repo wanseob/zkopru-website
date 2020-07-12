@@ -7,14 +7,13 @@ const TestNet = () => (
     <Title isSize="2">Testnet</Title>
     <hr />
     <Content>
-      <p>
-        The default configuration of the current CLI application is the
-        following:
-      </p>
+      <p>Please check the default configuration of the current testnet.</p>
+      <Title isSize="3">Layer 1 information</Title>
       <Label>Network</Label>
       <p>Running on Rinkeby</p>
-      <Label>Layer-1 contract address</Label>
+      <Label>Contract address</Label>
       <p>TBD</p>
+      <Title isSize="3">Layer 2 information</Title>
       <Label>Coordinator HTTP API URL</Label>
       <p>
         <a href="https://coordinator.zkopru.network">
