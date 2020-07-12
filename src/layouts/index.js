@@ -4,6 +4,7 @@ import Helmet from 'react-helmet'
 
 import 'font-awesome/css/font-awesome.css'
 import './all.sass'
+import favicon from '../../images/favicon.svg'
 
 import {
   Container,
@@ -35,6 +36,7 @@ const TemplateWrapper = ({ children }) => (
         name="keywords"
         content="zkSNARK, Ethereum, L2, Layer2, Optimistic Rollup, rollup, zk, zero knowledge, privacy, SNARK"
       />
+      <link rel="icon" href={favicon} />
     </Helmet>
     <Hero isFullHeight isColor="primary">
       <HeroHeader>
