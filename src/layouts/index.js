@@ -55,7 +55,7 @@ const TemplateWrapper = ({ children }) => (
               </Tab>
               <Tab>
                 <TabLink
-                  href="https://github.com/wanseob/zkopru"
+                  href="https://github.com/zkopru-network/zkopru"
                   target="_blank"
                 >
                   <Icon isSize="small" className="fa fa-github" />

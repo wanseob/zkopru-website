@@ -14,7 +14,7 @@ const Roadmap = () => (
     <Columns>
       <Column isSize="1/2">
         <TabLink
-          href="https://github.com/wanseob/zkopru/projects/1"
+          href="https://github.com/zkopru-network/zkopru/projects/1"
           target="_blank"
         >
           <Title isSize="4">Arctic roll</Title>
@@ -39,7 +39,7 @@ const Roadmap = () => (
     <Columns>
       <Column isSize="1/2">
         <TabLink
-          href="https://github.com/wanseob/zkopru/projects/5"
+          href="https://github.com/zkopru-network/zkopru/projects/5"
           target="_blank"
         >
           <Title isSize="4">Burrito</Title>
@@ -61,7 +61,7 @@ const Roadmap = () => (
     <Columns>
       <Column isSize="1/2">
         <TabLink
-          href="https://github.com/wanseob/zkopru/projects/5"
+          href="https://github.com/zkopru-network/zkopru/projects/5"
           target="_blank"
         >
           <Title isSize="4">Grilled Burrito</Title>
@@ -85,7 +85,7 @@ const Roadmap = () => (
     <Columns>
       <Column isSize="1/2">
         <TabLink
-          href="https://github.com/wanseob/zkopru/projects/5"
+          href="https://github.com/zkopru-network/zkopru/projects/5"
           target="_blank"
         >
           <Title isSize="4">California roll</Title>
@@ -109,7 +109,7 @@ const Roadmap = () => (
     <Columns>
       <Column isSize="1/2">
         <TabLink
-          href="https://github.com/wanseob/zkopru/projects/6"
+          href="https://github.com/zkopru-network/zkopru/projects/6"
           target="_blank"
         >
           <Title isSize="4">Dragon roll</Title>
