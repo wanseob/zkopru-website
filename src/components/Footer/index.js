@@ -8,18 +8,19 @@ const AppFooter = () => (
         <Columns>
           <Column isFull>
             <p>
-              Made with<Icon hasTextColor="danger" className="fa fa-heart" />
-              at <a href="https://cethyworks.io">cethyworks.io</a>
+              Made with
+              <Icon hasTextColor="danger" className="fa fa-heart" />
+              on Ethereum
             </p>
           </Column>
         </Columns>
         <Content isSize="small">
           <p>
-            The source code is licensed under <a target="_blank">MIT</a>.
-          </p>
-          <p>
-            The website content is licensed under{' '}
-            <a target="_blank">CC ANS 4.0</a>.
+            The source code is licensed under{' '}
+            <a href="https://www.gnu.org/licenses/gpl-3.0.html" target="_blank">
+              GNU General Public License version 3.0 or later
+            </a>
+            .
           </p>
         </Content>
       </Content>
