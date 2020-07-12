@@ -6,15 +6,18 @@ const TestNet = () => (
   <Container>
     <Title isSize="2">Testnet</Title>
     <hr />
+    <p>Please check the default configuration of the current testnet.</p>
+    <br/>
+    <Title isSize="4">Layer 1 information</Title>
     <Content>
-      <p>Please check the default configuration of the current testnet.</p>
-      <Title isSize="3">Layer 1 information</Title>
       <Label>Network</Label>
       <p>Running on Rinkeby</p>
       <Label>Contract address</Label>
       <p>TBD</p>
-      <Title isSize="3">Layer 2 information</Title>
-      <Label>Coordinator HTTP API URL</Label>
+    </Content>
+    <Title isSize="4">Layer 2 information</Title>
+    <Content>
+      <Label>Coordinator API</Label>
       <p>
         <a href="https://coordinator.zkopru.network">
           https://coordinator.zkopru.network
