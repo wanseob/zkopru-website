@@ -8,17 +8,18 @@ const Playground = () => (
   <Container>
     <Title isSize="2">Playground</Title>
     <hr />
+    <Title isSize="4">Please try in local when the server is busy :)</Title>
     <p>
       You can use Zkopru Playground to try the CLI wallet in a sandbox environment.
       It simply serves the CLI applications using the web interface
       through GoTTY. Note that the playground server may not be available due to the
-      limited resources. If the server has any problem, please it in <a href="#run-docker">your local environment using docker.</a>
+      limited resources. If the server has any problem, please run it in your local environment using docker.
     </p>
     <Content>
     <br/>
     <pre>
     <code>
-    docker --rm -it zkoprunet/playground:latest
+    docker -it zkoprunet/playground:latest
     </code>
     </pre>
     </Content>
@@ -28,6 +29,7 @@ const Playground = () => (
     </p>
     <br />
     <br/>
+    <Title isSize="4">Sandbox demo</Title>
     <Box style={{backgroundColor: 'black'}}>
     <iframe src="https://playground.zkopru.network" width="100%" height="700px">
     </iframe>
@@ -100,16 +102,7 @@ const Playground = () => (
     </ol>
     </Content>
     <br/>    
-    <hr />
-    <Title isSize="4">Or play on the real testnet using CLI wallet</Title>
-    <Content>
-    <pre>
-    <code>
-      $ npm install -g @zkopru/cli
-      $ zkopru-wallet
-    </code>
-    </pre>
-    </Content>
+    <Title isSize="4">Do you want more details?</Title>
     <TabLink href="https://docs.zkopru.network/getting-started" target="_blank">
       <Button isColor="white" isOutlined>
         Getting into the details
