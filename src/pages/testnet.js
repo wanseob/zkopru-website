@@ -33,7 +33,7 @@ const TestNet = () => (
     </Content>
     <Title isSize="4">Coordinator is rolling up your Arctic Roll ٩( ᐛ )و</Title>
     <Box style={{backgroundColor: 'black'}}>
-    <iframe src="http://coordinator.zkopru.network:8080" width="100%" height="40%">
+    <iframe src="https://coordinator.zkopru.network:8080" width="100%" height="40%">
     </iframe>
     </Box>
   </Container>
