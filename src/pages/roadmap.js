@@ -1,5 +1,4 @@
 import React from 'react'
-import Link from 'gatsby-link'
 import { Container, Title } from 'bloomer'
 import { Content } from 'bloomer/lib/elements/Content'
 import { Columns } from 'bloomer/lib/grid/Columns'

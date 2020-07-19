@@ -1,6 +1,7 @@
 import React from 'react'
 import { Container, Title, Content } from 'bloomer'
 import { Label } from 'bloomer/lib/elements/Form/Label'
+import { Box } from 'bloomer/lib/elements/Box'
 
 const TestNet = () => (
   <Container>
@@ -11,9 +12,9 @@ const TestNet = () => (
     <Title isSize="4">Layer 1 information</Title>
     <Content>
       <Label>Network</Label>
-      <p>Running on Rinkeby</p>
+      <p>Running on Goerli</p>
       <Label>Contract address</Label>
-      <p>TBD</p>
+      <p>0x98a9b814B423B4D17Cd612cD7943986aB9BF8c41</p>
     </Content>
     <Title isSize="4">Layer 2 information</Title>
     <Content>
@@ -30,6 +31,11 @@ const TestNet = () => (
         </a>
       </p>
     </Content>
+    <Title isSize="4">Coordinator is rolling up your Arctic Roll ٩( ᐛ )و</Title>
+    <Box style={{backgroundColor: 'black'}}>
+    <iframe src="http://coordinator.zkopru.network:8080" width="100%" height="40%">
+    </iframe>
+    </Box>
   </Container>
 )
 
