@@ -19,7 +19,7 @@ const Playground = () => (
     <br/>
     <pre>
     <code>
-    docker -it zkoprunet/playground:latest
+    docker run -it zkoprunet/playground:latest
     </code>
     </pre>
     </Content>
