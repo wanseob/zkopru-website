@@ -5,7 +5,7 @@ import { Content } from 'bloomer/lib/elements/Content'
 import { Box } from 'bloomer/lib/elements/Box'
 
 const Playground = () => (
-  <Container>
+  <Container style={{width: '100%'}}>
     <Title isSize="2">Playground</Title>
     <hr />
     <Title isSize="4">Please try in local when the server is busy :)</Title>

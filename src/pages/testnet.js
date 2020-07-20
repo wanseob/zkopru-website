@@ -4,7 +4,7 @@ import { Label } from 'bloomer/lib/elements/Form/Label'
 import { Box } from 'bloomer/lib/elements/Box'
 
 const TestNet = () => (
-  <Container>
+  <Container style={{width: '100%'}}>
     <Title isSize="2">Testnet</Title>
     <hr />
     <p>Please check the default configuration of the current testnet.</p>
