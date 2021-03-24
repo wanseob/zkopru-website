@@ -14,11 +14,11 @@ const IndexPage = () => (
     </p>
     <br />
     <br />
-    <Link to="/playground/">
+    <a href="https://mpc.zkopru.network/" target="_blank">
       <Button isColor="white" isOutlined>
-        Go to playground
+        Join the trusted setup ceremony
       </Button>
-    </Link>
+    </a>
   </Container>
 )
 

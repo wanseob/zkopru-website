@@ -9,12 +9,12 @@ const AppHeader = () => (
         <Tab>
           <Link to="/">Home</Link>
         </Tab>
-        <Tab>
+        {/* <Tab>
           <Link to="/playground/">Playground</Link>
         </Tab>
         <Tab>
           <Link to="/testnet/">Testnet</Link>
-        </Tab>
+        </Tab> */}
         <Tab>
           <Link to="/roadmap/">Roadmap</Link>
         </Tab>
